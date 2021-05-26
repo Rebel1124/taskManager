@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <h1
+    className="text-info"
+  >
+    Login Details
+  </h1>
+  <br />
+  <form>
+    <div
+      className="form-group"
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="username"
+        onChange={[Function]}
+        placeholder="username"
+        value=""
+      />
+    </div>
+    <br />
+    <div
+      className="form-group"
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="password"
+        onChange={[Function]}
+        placeholder="password"
+        type="password"
+        value=""
+      />
+    </div>
+    <br />
+    <div
+      className="form-inline"
+    >
+      <div
+        style={
+          Object {
+            "padding": "10px",
+          }
+        }
+      >
+        <button
+          className="btn btn-lg btn-info"
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": "10px",
+          }
+        }
+      >
+        <button
+          className="btn btn-lg btn-secondary"
+          onClick={[Function]}
+        >
+          Authenticate
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
